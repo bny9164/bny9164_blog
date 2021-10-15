@@ -105,3 +105,22 @@ deploy:
   type: git
   repo: https://github.com/bny9164/bny9164.github.io.git
   branch: main
+# 새로 추가
+nofollow:
+  enable: true
+  exclude:
+    - exclude1.com
+    - exclude2.com
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://bny9164.github.io/sitemap.xml
