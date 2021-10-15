@@ -108,7 +108,7 @@ navbar:
     Archives: /archives
     Categories: /categories
     Tags: /tags
-    About: /about
+    About: "https://about.me/namyul"
   # Links to be shown on the right of the navigation bar
   links:
     Download on GitHub:
@@ -139,9 +139,9 @@ article:
     # Default folding status of the code blocks. Can be "", "folded", "unfolded"
     fold: unfolded
   # Whether to show estimated article reading time
-  readtime: true
+  readtime: false
   # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-  update_time: true
+  update_time: false
   # Article licensing block
   licenses:
     Creative Commons:
@@ -223,30 +223,30 @@ widgets:
     # Author's current location
     location: Republic of Korea
     # URL or path to the avatar image
-    avatar:
+    avatar: "/img/nestjs.png"
     # Whether show the rounded avatar image
-    avatar_rounded: false
+    avatar_rounded: true
     # Email address for the Gravatar
     gravatar:
     # URL or path for the follow button
-    follow_link: "https://github.com/ppoffice"
+    follow_link: "https://github.com/bny64"
     # Links to be shown on the bottom of the profile widget
     social_links:
       Github:
         icon: fab fa-github
-        url: "https://github.com/ppoffice"
-      Facebook:
-        icon: fab fa-facebook
-        url: "https://facebook.com"
-      Twitter:
-        icon: fab fa-twitter
-        url: "https://twitter.com"
-      Dribbble:
-        icon: fab fa-dribbble
-        url: "https://dribbble.com"
-      RSS:
-        icon: fas fa-rss
-        url: /
+        url: "https://github.com/bny64"
+      # Facebook:
+      #   icon: fab fa-facebook
+      #   url: "https://facebook.com"
+      # Twitter:
+      #   icon: fab fa-twitter
+      #   url: "https://twitter.com"
+      # Dribbble:
+      #   icon: fab fa-dribbble
+      #   url: "https://dribbble.com"
+      # RSS:
+      #   icon: fas fa-rss
+      #   url: /
   # Table of contents widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -260,11 +260,11 @@ widgets:
   # Recommendation links widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
-    type: links
+    type: #links
     # Names and URLs of the sites
     links:
-      Hexo: "https://hexo.io"
-      Bulma: "https://bulma.io"
+      GIT: "https://github.com/bny64"
+      # Bulma: "https://bulma.io"
   # Categories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -292,7 +292,7 @@ widgets:
   # Google AdSense unit configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
-    type: adsense
+    type: #adsense
     # AdSense client ID
     client_id: ""
     # AdSense AD unit ID
@@ -300,7 +300,7 @@ widgets:
   # Follow.it email subscription widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
-    type: followit
+    type: #followit
     # Hint text under the email input
     description:
     # Subscription form action URL
