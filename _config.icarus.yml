@@ -3,11 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /img/og_image.png
 # Page metadata configurations
 head:
   # URL or path to the website's icon
-  favicon: /img/favicon.svg
+  favicon: /img/nestjs.png
   # Web application manifests configuration
   # https://developer.mozilla.org/en-US/docs/Web/Manifest
   manifest:
@@ -256,7 +256,7 @@ widgets:
     # Whether to collapse sub-headings when they are out-of-view
     collapsed: true
     # Maximum level of headings to show (1-6)
-    depth: 3
+    depth: 2
   # Recommendation links widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left

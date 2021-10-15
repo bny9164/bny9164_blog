@@ -12,7 +12,7 @@
     "author": {
       "type": "string",
       "description": "Author name",
-      "examples": ["BAE NAMYUL"],
+      "examples": ["Your name"],
       "nullable": true
     },
     "author_title": {
