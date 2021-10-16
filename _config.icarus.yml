@@ -109,10 +109,13 @@ navbar:
     Categories: /categories
     Tags: /tags
     About: "https://about.me/namyul"
+    "": ""
+    한국어: /categories/%ED%95%9C%EA%B5%AD%EC%96%B4
+    日本語: /categories/%E6%97%A5%E6%9C%AC%E8%AA%9E
   # Links to be shown on the right of the navigation bar
   links:
     Download on GitHub:
-      icon: fab fa-github
+      icon: "fab fa-github"
       url: "https://github.com/bny9164"
 # Page footer configurations
 footer:
