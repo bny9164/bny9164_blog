@@ -10,6 +10,7 @@ hexo new post 'post명' : 새로운 post 생성
 hexo new draft 'draft명' : 새로운 초안 생성
 hexo server : server 실행
 hexo server --draft : 초안까지 포함해 server 실행
+hexo publish 'draft명' : draft으로 작성한 파일 post로 변경
 
 자세한 내용[공식문서] : https://hexo.io/ko/docs/commands
 
