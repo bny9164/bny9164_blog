@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ""
-  per_page: 3
+  per_page: 5
   order_by: -date
 
 # Category & Tag
@@ -103,22 +103,19 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/bny9164/bny9164.github.io.git
+  repo: https://github.com/bny9164/bny9164.github.io
   branch: main
 # 새로 추가
 nofollow:
   enable: true
-  exclude:
-    - exclude1.com
-    - exclude2.com
 feed:
   type: rss2
   path: rss2.xml
   limit: 20
 sitemap:
   path: sitemap.xml
-  tag: false
-  category:
+  tag: true
+  category: true
 robotstxt:
   useragent: "*"
   allow:
