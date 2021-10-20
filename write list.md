@@ -2,6 +2,7 @@
 - NoSQL이란?
 - 로드밸런싱
 - 브로드 캐스팅
+- JNDI DBCP JDBC 차이
 
 schedule
 
