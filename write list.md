@@ -6,6 +6,10 @@
 
 schedule
 
+-2021.10.21
+
+1. 2021-10-19-ko-AWS2021-10-19-ko-AWS 배포 완료
+
 - 2021.10.20 :
 
 1. AWS 일본어판 작성 완료
@@ -17,6 +21,5 @@ schedule
 
 배포대기
 
-- 2021-10-19-ko-AWS.md
 - 2021-10-19-jp-AWS.md
 - 2021-10-20-ko-invalid-bound-statement.md
