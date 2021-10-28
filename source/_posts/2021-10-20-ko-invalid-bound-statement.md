@@ -6,10 +6,12 @@ tags:
   - mybatis error
 thumbnail: /images/post/2021-10-20/invalidbound1.jpg
 categories:
-  - 한국어 #(예) 깃허브
-  - 학습 #- 서브카테고리명 #(예) 헥소
+  - 한국어
+  - 학습
   - JAVA
+date: 2021-10-28 10:12:37
 ---
+
 
 ![](/images/post/2021-10-20/invalidbound1.jpg)
 
