@@ -17,7 +17,7 @@
     "hexo-autonofollow": "^1.0.1",
     "hexo-component-inferno": "^0.13.0",
     "hexo-deployer-git": "^3.0.0",
-    "hexo-fs": "^3.0.1",
+    "hexo-fs": "^4.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
